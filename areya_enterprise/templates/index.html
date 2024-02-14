@@ -22,6 +22,13 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- Modernizr JS -->
     <script src="{% static 'js/vendor/modernizr-2.8.3.min.js' %}"></script>
+
+    <style>
+        .hover_class:hover{
+            /* background-color: aliceblue; */
+            border-bottom: 1px solid;
+        }
+    </style>
 </head>
 
 <body>
@@ -45,13 +52,13 @@
                             <div class="header-menu-area text-center">
                                 <nav class="main-menu">
                                     <ul>
-                                        <li><a href="index.html">Home</a>
+                                        <li><a href="#main-wrapper">Home</a>
                                             <ul class="sub-menu">
                                                 <li><a href="index.html">Home One</a></li>
                                                 <li><a href="index-2.html">Home Two</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#section_category">Category</a>
+                                        <li><a href="#section_category"><span class="hover_class" >Category</span></a>
                                             
                                         </li>
                                         <li><a href="blog.html">Pages</a>
@@ -66,7 +73,7 @@
                                                 <li><a href="blog-details-video.html">Blog Details Video</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#contact_id">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -500,7 +507,7 @@
             class="product_category_section">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col"   id="section_category">
                         <div class="section-title text-center mb-15">
                             <h2>Popular Furniture</h2>
                         </div>
@@ -1422,7 +1429,7 @@
         <footer class="footer-section section bg-gray">
 
             <!--Footer Top start-->
-            <div
+            <div id="contact_id"
                 class="footer-top section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-55 pb-lg-35 pb-md-25 pb-sm-15 pb-xs-10">
                 <div class="container">
                     <div class="row">
@@ -1467,9 +1474,9 @@
                         <!--Footer Widget start-->
                         <div
                             class="footer-widget text-lg-right text-left col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
-                            <h2>123 Widget Street Acmeville, AC-1209</h2>
-                            <p class="contact-text">demo@example.com</p>
-                            <p class="contact-text">+0123456789</p>
+                            <h2>Shop No. 3, <br>Gokul Apartment, Uttamnagar, <br>Nikol, Ahmedabad.</h2>
+                            <p class="contact-text">niravshiroya@gmail.com</p>
+                            <p class="contact-text">+91 9913781840</p>
                         </div>
                         <!--Footer Widget end-->
                     </div>
@@ -1485,7 +1492,7 @@
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="copyright text-left">
-                                        <p class="copyright">&copy; 2022 <strong>Nelson</strong> - All Rights Reserved.
+                                        <p class="copyright">&copy; 2024 <strong>Areya Enterprise</strong> - All Rights Reserved.
                                         </p>
                                     </div>
                                 </div>
